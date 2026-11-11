@@ -5,6 +5,8 @@ name: Windows source tests
   workflow_dispatch:
 permissions:
   contents: read
+env:
+  PYTHONUTF8: '1'
 jobs:
   source:
     runs-on: windows-latest

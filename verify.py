@@ -15,6 +15,10 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parent
 
 def main():
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(encoding='utf-8', errors='replace')
+    os.environ['PYTHONIOENCODING'] = 'utf-8'
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--native', action='store_true', help='Use the Windows Qt backend')
     parser.add_argument('--pattern', default='test_*.py')
