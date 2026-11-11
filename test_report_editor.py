@@ -95,7 +95,7 @@ class ReportEditorTests(unittest.TestCase):
         from report_export import ReportBuilderDialog
         self.assertIs(ReportBuilderDialog,ReportEditorDialog)
         import ast
-        tree=ast.parse(Path('main.py').read_text(encoding='utf-8-sig'));method=next(n for n in ast.walk(tree) if isinstance(n,ast.FunctionDef) and n.name=='open_report_builder')
+        tree=ast.parse(Path(__file__).with_name('main.py').read_text(encoding='utf-8-sig'));method=next(n for n in ast.walk(tree) if isinstance(n,ast.FunctionDef) and n.name=='open_report_builder')
         self.assertTrue(any(isinstance(n,ast.Call) and isinstance(n.func,ast.Name) and n.func.id=='ReportBuilderDialog' for n in ast.walk(method)))
     def test_stale_load_and_save_cannot_replace_another_report(self):
         old_uid=self.dialog.controller.document.report_uid

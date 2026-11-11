@@ -35,3 +35,5 @@ GITHUB_EXPORT_*/
 .codex/
 .agents/
 upload-part-*.json
+.validation/
+pip_install*.log

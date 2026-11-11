@@ -10,7 +10,7 @@ from pathlib import Path
 from unittest.mock import patch
 from PIL import Image
 from PySide6.QtCore import Qt
-from PySide6.QtGui import QInputMethodEvent
+from PySide6.QtGui import QInputMethodEvent,QFontDatabase
 from PySide6.QtTest import QTest
 from PySide6.QtWidgets import QApplication,QLineEdit,QFileDialog,QMessageBox
 from PySide6.QtPdf import QPdfDocument
@@ -21,6 +21,8 @@ from report_layout import export_pdf,ReportLayout
 from report_docx import export_docx
 
 APP=QApplication.instance() or QApplication([])
+for font in ['arial.ttf','arialbd.ttf']:
+    QFontDatabase.addApplicationFont(str(Path(os.environ.get('WINDIR','C:/Windows'))/'Fonts'/font))
 
 def wait(dialog):
     deadline=time.monotonic()+15

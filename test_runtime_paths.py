@@ -45,7 +45,7 @@ class RuntimeTests(unittest.TestCase):
             for p in root.glob('*.py'):
                 if not p.name.startswith('test_'):shutil.copy2(p,moved/p.name)
             shutil.copytree(root/'runtime'/'icons',moved/'runtime'/'icons')
-            output=moved/'diagnostic.json';env=os.environ.copy();env['QT_QPA_PLATFORM']='offscreen'
+            output=Path(d)/'diagnostic.json';env=os.environ.copy();env['QT_QPA_PLATFORM']='offscreen'
             cp=subprocess.run([sys.executable,'-X','utf8',str(moved/'main.py'),'--runtime-diagnostics',str(output)],cwd=d,
                               env=env,capture_output=True,text=True,encoding='utf-8',timeout=60)
             self.assertEqual(cp.returncode,0,cp.stderr)

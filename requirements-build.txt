@@ -1,0 +1,2 @@
+-r requirements-lock-windows.txt
+PyInstaller==6.19.0
