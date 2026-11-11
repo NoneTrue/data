@@ -37,3 +37,7 @@ GITHUB_EXPORT_*/
 upload-part-*.json
 .validation/
 pip_install*.log
+.optional-downloads/
+optional-runtime-dist/
+runtime/OTB-9.1.0-Win64/
+runtime/GeoAlignAI/

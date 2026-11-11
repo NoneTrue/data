@@ -1,0 +1,38 @@
+name: Publish optional runtime archives
+'on':
+  push:
+    branches: [main]
+    paths:
+      - 'optional-runtime-sources/**'
+      - 'tools/build_optional_runtime.py'
+      - 'tools/publish_optional_runtime.py'
+      - 'setup_optional_runtime.py'
+      - '.github/workflows/publish-optional-runtime.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  PYTHONUTF8: '1'
+jobs:
+  publish:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build archives and test OTB on Windows
+        run: python tools/build_optional_runtime.py --output optional-runtime-dist
+      - name: Publish only validated release assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/publish_optional_runtime.py optional-runtime-dist
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: optional-runtime-validation
+          path: |
+            optional-runtime-dist/runtime-manifest.json
+            optional-runtime-dist/OTB-smoke.log
+            optional-runtime-dist/SHA256SUMS.txt

@@ -12,9 +12,11 @@ the source tests or normal analysis/report workflow:
 | GeoAlignAI | 360 MB | Third-party repositories and duplicate model weights, without a connected UI backend |
 | models | 5.35 MB | Development weights and dataset/class configuration; not loaded by the analysis engine |
 
-They are not automatically uploaded or downloaded. Including such folders would
-not enable a new backend. Third-party model inference would require a separately
-implemented and tested integration and a review of the applicable model licenses.
+The official OTB Windows archive and a redistributable LoFTR/YACS source subset
+are published separately from the source repository. The restricted SuperGlue and
+SuperPoint sources and weights are not republished. None of these resources is
+downloaded by normal application setup or enables a new backend. See
+`OPTIONAL_RUNTIME.md` for the separate release and explicit installation steps.
 
 Runtime diagnostics intentionally report these as optional. The application
 icon files in `runtime/icons` are included in this repository.

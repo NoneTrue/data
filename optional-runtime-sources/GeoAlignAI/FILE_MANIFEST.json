@@ -1,0 +1,427 @@
+[
+  {
+    "path": "python_packages/yacs/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "python_packages/yacs/config.py",
+    "bytes": 20505,
+    "sha256": "6d491fea3cba4030698b08ed93440db75b3ce65858300577133b13b095394b6a"
+  },
+  {
+    "path": "python_packages/yacs/LICENSE",
+    "bytes": 10255,
+    "sha256": "4d10fe5f3aa176b05b229a248866bad70b834c173f1252a814ff4748d8a13837"
+  },
+  {
+    "path": "python_packages/yacs/tests.py",
+    "bytes": 10557,
+    "sha256": "8943615a3545c953322a0b3608cb4ececcef26962cd85f296ceaafd39be74e24"
+  },
+  {
+    "path": "README.md",
+    "bytes": 576,
+    "sha256": "64802d660914d7b539bf4f5d5749de4db4bea098662ff32bc887f5a0358af2f1"
+  },
+  {
+    "path": "repos/LoFTR/.gitignore",
+    "bytes": 370,
+    "sha256": "c37ca495ff9262bd4a92247a53b2f055e05cf33c16cd4f7ff58f339a42bffdeb"
+  },
+  {
+    "path": "repos/LoFTR/.gitmodules",
+    "bytes": 167,
+    "sha256": "806507c3d5ff618f6d0958d1e6bea7107bd0b892d674fa754ac705903b6f3acf"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/base.py",
+    "bytes": 949,
+    "sha256": "ca4b5f58a611fb5b85abb02a53a54e7716e2d72983675482905104b0d7008475"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/debug/.gitignore",
+    "bytes": 17,
+    "sha256": "5bf936e8007c2400d90f24a4fbc0474c7bb28229edb66263d8afefe338f6e76f"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/megadepth_test_1500.py",
+    "bytes": 385,
+    "sha256": "2c2be6367c575c2f3f3110d002dc509c2214f3cd5206ecccdea75518508b0c33"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/megadepth_trainval_640.py",
+    "bytes": 1022,
+    "sha256": "120a28ef388e8fa475b526fa46ab777efd1079a2896285752f8ba0746316c1c2"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/megadepth_trainval_840.py",
+    "bytes": 1023,
+    "sha256": "795e4b29199d858a6c869a6841ac328efdf5618584694fd8901d59660cd4c0d4"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/scannet_test_1500.py",
+    "bytes": 395,
+    "sha256": "a969d43cc48a54859ddfa864b7bb3575f029d068bbc8f148e1bf6b679bf3443c"
+  },
+  {
+    "path": "repos/LoFTR/configs/data/scannet_trainval.py",
+    "bytes": 894,
+    "sha256": "3c7352d3ffe5d1ecb892d0aacbecfec22511881340147b9f41978a0183df1231"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/buggy_pos_enc/loftr_ds.py",
+    "bytes": 197,
+    "sha256": "7f5f2fa2dc66c3c3e7c4fef5ad0a52a0b4fd15d6c43a10ab417627c504bd74e6"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/buggy_pos_enc/loftr_ds_dense.py",
+    "bytes": 241,
+    "sha256": "5a72d13c62b2c85f38d2b0b0015b88edf802731bd1acd891fcac7b0f2199d1f7"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/buggy_pos_enc/loftr_ot.py",
+    "bytes": 193,
+    "sha256": "4fa2c2a5602b281e5a732697d1b34d60cc8246ad54b89dbcbd1f5684e041ef02"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/buggy_pos_enc/loftr_ot_dense.py",
+    "bytes": 237,
+    "sha256": "6eb35c5d21bdf00ed34a34ed6f07792233b2c9b86ac21565552d534aa42e503d"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/debug/.gitignore",
+    "bytes": 17,
+    "sha256": "5bf936e8007c2400d90f24a4fbc0474c7bb28229edb66263d8afefe338f6e76f"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/loftr_ds.py",
+    "bytes": 159,
+    "sha256": "8131a3d970de9dd9a4bbda72754da3b5c71265d55f433caf6d4c1df7ab4a2f4d"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/loftr_ds_dense.py",
+    "bytes": 203,
+    "sha256": "9d88d0ee3baa2e74609a038b43c122b7b01b2ac6d5112229eea4277dfa9b8216"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/loftr_ot.py",
+    "bytes": 155,
+    "sha256": "1c6b0c571d988330ea26986e5a2bc10dc7e2e8113183da9bd9d746daf30606ba"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/loftr_ot_dense.py",
+    "bytes": 199,
+    "sha256": "ac6b8510a632b7a96b5a5a61d7bf1213935591d545059470ac11d6475629a5e7"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/scannet/loftr_ds_eval.py",
+    "bytes": 723,
+    "sha256": "b5c412d70cef6197e38fa594cc8390208b14c6bf0e798d04171c3f9a82edef6f"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/indoor/scannet/loftr_ds_eval_new.py",
+    "bytes": 807,
+    "sha256": "64b96b5721d1d40fc936dfa681b327779e4f4d5d0691651eac43b6674ef8c8bf"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/buggy_pos_enc/loftr_ds.py",
+    "bytes": 456,
+    "sha256": "ade4051078cb20cf8e461a3d8568399a1c09f83256e8f48095fa560390908a36"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/buggy_pos_enc/loftr_ds_dense.py",
+    "bytes": 499,
+    "sha256": "4fae65b708bb980d88cf5a16f52f1632b46bfec66d16a774695b4c4ed1c3cf5f"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/buggy_pos_enc/loftr_ot.py",
+    "bytes": 452,
+    "sha256": "35b92c1dad860229e8df2953a56cdb236c9aaa29752479d9d8a2f36fe6c5d7c0"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/buggy_pos_enc/loftr_ot_dense.py",
+    "bytes": 495,
+    "sha256": "d800439256c02c1c69e77c4093d4e6debeb2780be430906607f117d34d69d630"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/debug/.gitignore",
+    "bytes": 17,
+    "sha256": "5bf936e8007c2400d90f24a4fbc0474c7bb28229edb66263d8afefe338f6e76f"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/loftr_ds.py",
+    "bytes": 418,
+    "sha256": "786c2796e63e430231493cc5279055f44c2ba5d5dcacc78a41266a84a84d4e72"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/loftr_ds_dense.py",
+    "bytes": 461,
+    "sha256": "dd8b1600a678781f2a93602787d8bf8b6e65ed43c43a83cc48aa7914f73b12ee"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/loftr_ot.py",
+    "bytes": 414,
+    "sha256": "63b914c80b17f0ac25912d5c9ea18546986d055658662dd1d1add0f3ba8386b2"
+  },
+  {
+    "path": "repos/LoFTR/configs/loftr/outdoor/loftr_ot_dense.py",
+    "bytes": 457,
+    "sha256": "ea7b1e5dfb5a260b345265cb07f71690c433db2d6dff8d4bd17320d764030315"
+  },
+  {
+    "path": "repos/LoFTR/demo/demo_loftr.py",
+    "bytes": 9505,
+    "sha256": "12587e8ffc76bf6a66e5ef8708a33938a95dfc570539162ac0f94bacf611b84d"
+  },
+  {
+    "path": "repos/LoFTR/demo/run_demo.sh",
+    "bytes": 1206,
+    "sha256": "a4eb7043e30b2edea64ed9c4324415871a0509990a85102ffa236a8bc9baef7f"
+  },
+  {
+    "path": "repos/LoFTR/docs/TRAINING.md",
+    "bytes": 5249,
+    "sha256": "1f72a36bc0bf60f4112aa5b0e62a2873f0581c8eadcd70b646753012038d3d2a"
+  },
+  {
+    "path": "repos/LoFTR/environment.yaml",
+    "bytes": 238,
+    "sha256": "9b85f47e5e7f10e94614914fcf5e826db018fbecf1e6caefbc9e65a9199ec919"
+  },
+  {
+    "path": "repos/LoFTR/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "repos/LoFTR/README.md",
+    "bytes": 8532,
+    "sha256": "b7c1c2ac21bdff2ea1d29cb39dcf22b585a279b5ee9e0e14650c8912dac2ccf8"
+  },
+  {
+    "path": "repos/LoFTR/requirements.txt",
+    "bytes": 370,
+    "sha256": "4335786c5eaa2a5f629aaed36a3719b94ff91084257a909a12c34cf4c2f27853"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_test/indoor_ds.sh",
+    "bytes": 831,
+    "sha256": "a496d479f4304a3921e9f43c41904ec4f6330b6fa8fd88f8cb93b7dce0da3b5c"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_test/indoor_ds_new.sh",
+    "bytes": 896,
+    "sha256": "c5a77bd581b8371789395d993d43293a647549fff3795f973080121129610b30"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_test/indoor_ot.sh",
+    "bytes": 828,
+    "sha256": "ffa4229592f1b2e39c65546e83fbcb85d3f148d65becd872041c94b116647618"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_test/outdoor_ds.sh",
+    "bytes": 837,
+    "sha256": "adb4796d3553ab57e7d813de7cef01ce91e99861fe10de851df1041ae297bae9"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_test/outdoor_ot.sh",
+    "bytes": 833,
+    "sha256": "e202699bd526854480de5e4a57b404f3c2a14720caa1be29b5ba9c805d56748b"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_train/debug/.gitignore",
+    "bytes": 17,
+    "sha256": "5bf936e8007c2400d90f24a4fbc0474c7bb28229edb66263d8afefe338f6e76f"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_train/indoor_ds.sh",
+    "bytes": 931,
+    "sha256": "db5a23e1dff5597a9360bf0c47192154462af2398e10c09ffc2ccafe43bd7b8b"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_train/indoor_ot.sh",
+    "bytes": 931,
+    "sha256": "43eb6b329e19b8b243e2de0d1dd770d36e33a3e14c0783efb3090666ffae2729"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_train/outdoor_ds.sh",
+    "bytes": 1034,
+    "sha256": "3954fcbae6fd4494b107543c2ed41165d3871e103c2be6cb6ad9c33e48f84d7b"
+  },
+  {
+    "path": "repos/LoFTR/scripts/reproduce_train/outdoor_ot.sh",
+    "bytes": 1034,
+    "sha256": "5950c691976f8ca9581bce83c819d4162708ca541b8380d4407d09ecf4182d71"
+  },
+  {
+    "path": "repos/LoFTR/src/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "repos/LoFTR/src/config/default.py",
+    "bytes": 7098,
+    "sha256": "f1c0d63f41f4046e94721aa333b8f1a2e146046b910f4f31dcecd520f9a71ae4"
+  },
+  {
+    "path": "repos/LoFTR/src/datasets/megadepth.py",
+    "bytes": 5922,
+    "sha256": "52ed6e309d60b5cebd647bfa40c88f182ed45ecdd83e71f2741c4df878480ea5"
+  },
+  {
+    "path": "repos/LoFTR/src/datasets/sampler.py",
+    "bytes": 4293,
+    "sha256": "00c0b12d9f977685f0f97fbbe8e53ea696aaafeae06688a02c74d96b81f895af"
+  },
+  {
+    "path": "repos/LoFTR/src/datasets/scannet.py",
+    "bytes": 4672,
+    "sha256": "828328e43668e8fc705c0353d0df3d5013a3258b2c6bc74c57d4d4c7af733582"
+  },
+  {
+    "path": "repos/LoFTR/src/lightning/data.py",
+    "bytes": 14359,
+    "sha256": "70e310d3cd70a118d1b9026af7127a6f7b8796120153cd746a694ba81d79a140"
+  },
+  {
+    "path": "repos/LoFTR/src/lightning/lightning_loftr.py",
+    "bytes": 11172,
+    "sha256": "f0128dd78dd4760632e58dd59ca0c0a5af29e2b311715be3ad986fb656e3d4b5"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/__init__.py",
+    "bytes": 71,
+    "sha256": "99ce5f8f0d3f1d92f6882a3d572cec0d7a06ef34b900163353959955a033433e"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/backbone/__init__.py",
+    "bytes": 429,
+    "sha256": "0e21be28b1029eda5b4244a7fbd448d94cde659eda58b45d01526fea2363fcc2"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/backbone/resnet_fpn.py",
+    "bytes": 6882,
+    "sha256": "db55169d8d939332121f6967d7edd5656fa032a9add9c2d898c4bac9cebe3378"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/loftr.py",
+    "bytes": 3515,
+    "sha256": "c24498e84917e0e7ae9139e86b500f5991ab2e12521ad9040b2401f4d766b4fb"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/loftr_module/__init__.py",
+    "bytes": 93,
+    "sha256": "f5a71f8e833f59258c2bc3585bad609ecab1f31566e17999c4825d5ae7a76891"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/loftr_module/fine_preprocess.py",
+    "bytes": 2550,
+    "sha256": "6ac8a93c4bc1029eae710da72f0f6d306d42fe8e1e91086e625025b81f5a1ed6"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/loftr_module/linear_attention.py",
+    "bytes": 2794,
+    "sha256": "97718f79f081a3a9e29b82cb05d1570dc073c8552f7426a8d16ebae14f357daf"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/loftr_module/transformer.py",
+    "bytes": 3656,
+    "sha256": "c7c3296772a7741190efada728087c9238ab30a583c340d3a9bfa1ced0693657"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/utils/coarse_matching.py",
+    "bytes": 10396,
+    "sha256": "c3fa6138457dadaa033205c846eaee4ebe61dd1987bcd114b08e52d3b2f5b94d"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/utils/cvpr_ds_config.py",
+    "bytes": 1548,
+    "sha256": "bd4ac02662c431d771b6d479ab886bf084f033bba6a0126ea8f4a791e7931006"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/utils/fine_matching.py",
+    "bytes": 2838,
+    "sha256": "3a6d4ef517450c469e81fc53db2b8c6e9cc4d2338cf9b4a7d7861ba09756f6ca"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/utils/geometry.py",
+    "bytes": 2085,
+    "sha256": "808c445e713c3960dcc592195465e3bf0446049a09ce32fc0a89fa8cf5bf5d20"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/utils/position_encoding.py",
+    "bytes": 1882,
+    "sha256": "09147927c36c13b9f5b6854e231f45777b8166863ca41c98d6df09904b2a4817"
+  },
+  {
+    "path": "repos/LoFTR/src/loftr/utils/supervision.py",
+    "bytes": 5731,
+    "sha256": "f0d92e941c5e5c4a82143e42f3cf6a54ed6ca3415bb36e61aea7fb4bb0cf55f3"
+  },
+  {
+    "path": "repos/LoFTR/src/losses/loftr_loss.py",
+    "bytes": 8988,
+    "sha256": "b7234b669b23fda32c9a9825b66f1637b62ece7ad6ad15e0362e32ec25721266"
+  },
+  {
+    "path": "repos/LoFTR/src/optimizers/__init__.py",
+    "bytes": 1445,
+    "sha256": "01d58379d98638d9cf1060da9ec3f33fb3560576231f4f4384f169d688499988"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/augment.py",
+    "bytes": 1578,
+    "sha256": "5976e7bd96b7453914a74ab484a3a9c5405b29d489f36df2ae5ec0c24d15a1dd"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/comm.py",
+    "bytes": 7776,
+    "sha256": "4ee104b9eb1b1f6dea8e6665625f5842b33ea70d54198db894c9dc6fb9e56866"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/dataloader.py",
+    "bytes": 876,
+    "sha256": "bda1eefa7683f51d27c8b0b7991af1f046bd93d388b0a04aaf8a7770584edae0"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/dataset.py",
+    "bytes": 5683,
+    "sha256": "1b981b69c928f371bb425e473c6905dd39ebb5eee06c3fbb5e011ac1dd01191a"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/metrics.py",
+    "bytes": 6379,
+    "sha256": "d61387899b8b07c6aca2308e3b9f51e533b13080faaf83133d3fd63003c8a34e"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/misc.py",
+    "bytes": 3512,
+    "sha256": "2688958809456fbfea2262b803c77f23ec23c105ea6e4b58d9c812433daed3ca"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/plotting.py",
+    "bytes": 5676,
+    "sha256": "0b265e7037f5f1094ba8f613db561eb572d05982bdfecd7ab2569dd7720d80fa"
+  },
+  {
+    "path": "repos/LoFTR/src/utils/profiler.py",
+    "bytes": 1199,
+    "sha256": "1fc9d10ff12b3caff480f06194ad5789eb4b2d3d83ced861d62763ab60addbad"
+  },
+  {
+    "path": "repos/LoFTR/test.py",
+    "bytes": 2628,
+    "sha256": "86639815ec028e5fd9447db9c3f6569b85611a54ab8f3eade815b8354fe3f0cd"
+  },
+  {
+    "path": "repos/LoFTR/train.py",
+    "bytes": 5136,
+    "sha256": "776918c20f13e2632a2ab54c9626974a1885cbc35a859bdea72f060d2dd41455"
+  }
+]

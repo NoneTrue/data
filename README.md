@@ -47,6 +47,8 @@ comparison, target management or report editing. The optional development folder
 exceed 1 GB locally and contain duplicate weights, training/development files and
 third-party repositories. They are not silently downloaded by setup.
 See `RUNTIME_PACKAGING_AR.md` for the historical inventory.
+See `OPTIONAL_RUNTIME.md` for the separate OTB release, permitted GeoAlignAI
+source subset, integrity checks and local installation commands.
 
 ## بناء Windows
 
